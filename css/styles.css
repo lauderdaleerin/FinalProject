@@ -4,6 +4,11 @@
     --cyan: #02FFFF;
 }
 
+
+/*having trouble setting bg image*/
+
 body {
     background-color: black;
+    background-image: url("images/stars-bg.svg");
+    background-repeat: no-repeat;
 }
