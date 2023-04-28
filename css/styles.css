@@ -1,0 +1,9 @@
+:root {
+    --off-white: #EEECE1;
+    --red: #FF0201;
+    --cyan: #02FFFF;
+}
+
+body {
+    background-color: black;
+}
