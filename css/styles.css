@@ -21,13 +21,14 @@ body {
 }
 
 .discover {
-    background-image: linear-gradient(var(--off-white), var(--off-white), transparent);
+    background-image: linear-gradient(var(--off-white) 25%, transparent 40%, transparent 100%);
 }
 
 .herotxt {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15%;
+    padding-top: 10%;
     padding-bottom: 20%;
 }
+
