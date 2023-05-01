@@ -4,6 +4,13 @@
     --cyan: #02FFFF;
 }
 
+h1, h3, h4 {
+    font-family: 'League Gothic';
+}
+
+h2, h5, h6, p {
+    font-family: 'Montserrat';
+}
 
 /*having trouble setting bg image*/
 
@@ -11,4 +18,16 @@ body {
     background-color: black;
     background-image: url("images/stars-bg.svg");
     background-repeat: no-repeat;
+}
+
+.discover {
+    background-image: linear-gradient(var(--off-white), var(--off-white), transparent);
+}
+
+.herotxt {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15%;
+    padding-bottom: 20%;
 }
