@@ -11,7 +11,14 @@
 </head>
 
 <body>
-    <div class="discover"> <!--gradient bg-->
+    <!--Hero animation-->
+    <video width="100%" height="auto" autoplay muted id="hero">
+        <source src="images/peculiar-hero.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+
+      <!--Hero animation stops & content loads-->
+    <div class="peculiar invisible" id="content"> <!--gradient bg-->
 
     <!--Nav bar-->
         <nav class="navbar sticky-top" style="background-color: transparent" id="navbarDark">
@@ -20,7 +27,7 @@
             <button type="button" class="btn btn-outline-dark"><h1>Get PeculiAR</h1></button>
         </div>
         </nav>
-        <nav class="navbar sticky-top" style="background-color: transparent" id="navbarLight">
+        <nav class="navbar sticky-top invisible" style="background-color: transparent" id="navbarLight">
             <div class="container-fluid">
                 <img src="images/compass-logo.svg" class="float-start" alt="Compass Logo">
                 <button type="button" class="btn btn-outline-light"><h1>Get PeculiAR</h1></button>
@@ -101,6 +108,8 @@
 
 
     </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script src="script.js"></script>
+
 </body>
 </DOCTYPE>
