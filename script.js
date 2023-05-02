@@ -21,3 +21,4 @@ window.onscroll = function () {
         navbarLight.classList.remove("invisible");
     }
 };
+
