@@ -12,34 +12,40 @@
 
 <body>
     <!--Hero animation-->
-    <video width="100%" height="auto" autoplay muted id="hero">
+    <video class="vw-100 vh-100" autoplay muted id="hero">
         <source src="images/peculiar-hero.mp4" type="video/mp4">
       Your browser does not support the video tag.
       </video>
 
       <!--Hero animation stops & content loads-->
-    <div class="peculiar invisible" id="content"> <!--gradient bg-->
-
-    <!--Nav bar-->
-        <nav class="navbar sticky-top" style="background-color: transparent" id="navbarDark">
-        <div class="container-fluid">
-            <img src="images/compass-logo-black.svg" class="float-start" alt="Compass Logo">
-            <button type="button" class="btn btn-outline-dark"><h1>Get PeculiAR</h1></button>
-        </div>
-        </nav>
-        <nav class="navbar sticky-top invisible" style="background-color: transparent" id="navbarLight">
+    
+      <div class="peculiar" id="content"> 
+   
+        <!--Nav bar-->
+            <nav class="navbar sticky-top" style="background-color: #EEECE1" id="navbarDark">
             <div class="container-fluid">
-                <img src="images/compass-logo.svg" class="float-start" alt="Compass Logo">
-                <button type="button" class="btn btn-outline-light"><h1>Get PeculiAR</h1></button>
+                <img src="images/compass-logo-black.svg" class="float-start" alt="Compass Logo">
+                <button type="button" class="btn btn-outline-dark"><h1>Get PeculiAR</h1></button>
             </div>
             </nav>
 
+            
+
+           <div class="offwhite"> <!--offwhite bg-->
     
         
             <div class="herotxt text-center text-black">
                 <h1>Discover the secrets hidden in your neighborhood with PeculiAR. Designed for true crime and macabre enthusiasts.</h1>
             </div>
-     <!--end gradient-->
+            </div>
+     <!--end bg-->
+
+     <nav class="navbar sticky-top invisible" style="background-color: transparent" id="navbarLight">
+        <div class="container-fluid">
+            <img src="images/compass-logo.svg" class="float-start" alt="Compass Logo">
+            <button type="button" class="btn btn-outline-light"><h1>Get PeculiAR</h1></button>
+        </div>
+        </nav>
     
 
             <div class="herotxt text-center text-white">
@@ -48,6 +54,31 @@
 
             <!--end herotext-->
 
+
+            <section id="info-card">
+                <!--hero card-->
+                    <div class="card mx-auto mb-5" style="width: 50%;">
+                        <div class="card-body d-flex flex-column justify-content-center pb-0">
+                            <div class="card-content d-flex flex-column p-3">
+                                <h2 class="card-title text-center">Explore the unknown with</h2>
+                                <img src="images/PeculiAR-type-logo.svg" class="w-75 mx-auto" alt="PeculiAR">
+                                <div class="d-flex flex-row align-center justify-content-center gap-3">
+                                    <img src="images/google-play-black.svg" class="w-50" alt="Download on Google Play">
+                                    <img src="images/app-store-black.svg" class="w-50" alt="Download on the App Store">
+                                </div>
+                            </div>
+                            <div class="card-img">
+                                <img src="images/iphone-mockup.png" class="w-50 d-block mx-auto" alt="iPhone mockup">
+                            </div>
+                    </div>
+                    </div>
+            
+                </section>
+
+                <!--end info card-->
+
+
+        <section id="content">
          <section id="features">
             <div class="container marketing">
                 <div class="row text-center text-white">
@@ -84,26 +115,8 @@
 
 
         
-    <section id="content">
-    <div class="container">
-    <!--hero card-->
-        <div class="card mx-auto" style="width: 18rem;">
-            <div class="card-body d-flex flex-row justify-content-center p-2">
-                <div class="card-content d-flex flex-column">
-                    <h2 class="card-title text-center">Explore the unknown with</h2>
-                    <img src="images/PeculiAR-type-logo.svg" alt="PeculiAR">
-                    <div class="d-flex flex-row align-center">
-                        <img src="images/google-play-black.svg" class="w-50" alt="Download on Google Play">
-                        <img src="images/app-store-black.svg" class="w-50" alt="Download on the App Store">
-                    </div>
-                </div>
-                <div class="card-img">
-                    <img src="images/iphone-mockup.png" class="w-100" alt="iPhone mockup">
-                </div>
-        </div>
-        </div>
 
-    </section>
+    
 </div>
 
 
