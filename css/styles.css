@@ -35,15 +35,21 @@ body {
 
 .red {
     color: var(--red);
-    z-index: index -1;
+    z-index: -1;
+    right: 10px;
 }
 
 .cyan {
     color: var(--cyan);
-    z-index: index -2;
+    z-index: -2;
+    right:13px;
 }
 
 .logo {
     width: 80px;
     height: auto;
+}
+
+.btn {
+    z-index: 1;
 }
