@@ -33,3 +33,17 @@ body {
     padding-bottom: 20%;
 }
 
+.red {
+    color: var(--red);
+    z-index: index -1;
+}
+
+.cyan {
+    color: var(--cyan);
+    z-index: index -2;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
