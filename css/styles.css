@@ -12,6 +12,36 @@ h2, h5, h6, p {
     font-family: 'Montserrat';
 }
 
+
+@keyframes heroAnimation {
+    0% {
+        opacity: 1;
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+
+    }
+
+    85% {
+        opacity: 1;
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    100% {
+        display: none;
+        opacity: 0;
+        height: 0;
+    }
+}
+
+#hero {
+    animation-name: heroAnimation;
+    animation-duration: 8000ms;
+    animation-fill-mode: forwards;
+}
+
 /*having trouble setting bg image*/
 
 body {
