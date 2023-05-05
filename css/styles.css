@@ -42,6 +42,13 @@ h2, h5, h6, p {
     animation-fill-mode: forwards;
 }
 
+#herow {
+    animation-name: heroAnimation;
+    animation-duration: 8000ms;
+    animation-fill-mode: forwards;
+
+}
+
 .herom {
     max-width: 100%;
     height:auto;

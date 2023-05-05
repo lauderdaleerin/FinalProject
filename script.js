@@ -1,6 +1,6 @@
 var navbarDark = document.getElementById('navbarDark');
 window.onscroll = function () { 
-    if (document.body.scrollTop <= 1200 ) {
+    if (document.body.scrollTop <= 900 ) {
         navbarDark.classList.add("visible");
         navbarDark.classList.remove("invisible");
     } 
@@ -12,7 +12,7 @@ window.onscroll = function () {
 
 var navbarLight = document.getElementById('navbarLight');
 window.onscroll = function () { 
-    if (document.body.scrollTop <= 1200 ) {
+    if (document.body.scrollTop <= 900 ) {
         navbarLight.classList.add("invisible");
         navbarLight.classList.remove("visible");
     } 
@@ -21,4 +21,30 @@ window.onscroll = function () {
         navbarLight.classList.remove("invisible");
     }
 };
+
+
+
+const videoEl = document.getElementById('herom')
+const navbarEl = document.getElementById('navbarDark')
+
+videoEl.addEventListener('play', () => {
+  navbarEl.classList.add('invisible')
+})
+
+videoEl.addEventListener('pause', () => {
+  navbarEl.classList.remove('invisible')
+})
+
+
+
+const videoElw = document.getElementById('herow')
+const navbarElw = document.getElementById('navbarDark')
+
+videoElw.addEventListener('play', () => {
+  navbarElw.classList.add('invisible')
+})
+
+videoElw.addEventListener('pause', () => {
+  navbarElw.classList.remove('invisible')
+})
 
