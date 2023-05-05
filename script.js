@@ -22,3 +22,29 @@ window.onscroll = function () {
     }
 };
 
+
+
+const videoEl = document.getElementById('herom')
+const navbarEl = document.getElementById('navbarDark')
+
+videoEl.addEventListener('play', () => {
+  navbarEl.classList.add('invisible')
+})
+
+videoEl.addEventListener('pause', () => {
+  navbarEl.classList.remove('invisible')
+})
+
+
+
+const videoElw = document.getElementById('herow')
+const navbarElw = document.getElementById('navbarDark')
+
+videoElw.addEventListener('play', () => {
+  navbarElw.classList.add('invisible')
+})
+
+videoElw.addEventListener('pause', () => {
+  navbarElw.classList.remove('invisible')
+})
+
