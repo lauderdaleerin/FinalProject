@@ -4,11 +4,11 @@
     --cyan: #02FFFF;
 }
 
-h1, h3, h4 {
+h1, h4 {
     font-family: 'League Gothic';
 }
 
-h2, h5, h6 {
+h2, h3, h5, h6 {
     font-family: 'Antonio';
 }
 
@@ -44,29 +44,28 @@ p {
     animation-name: heroAnimation;
     animation-duration: 8000ms;
     animation-fill-mode: forwards;
+    max-width: 100%;
+    height:auto;
+    margin: auto;
 }
 
 #herow {
     animation-name: heroAnimation;
     animation-duration: 8000ms;
     animation-fill-mode: forwards;
-
-}
-
-.herom {
-    max-width: 100%;
-    height:auto;
-}
-
-.herow {
     display: none;
+    margin:auto;
+
 }
+
+
 
 @media (min-width: 768px) {
-    .herom {
+    #herom {
         display: none;
     }
-    .herow {
+    #herow {
+        display:block;
         max-width: 100%;
         height: auto;
     }
@@ -78,8 +77,7 @@ body {
 
 
 .stars {
-    background-image: url(/images/stars-bg.svg);
-    height: 100vh;
+    background-image: url(images/stars-bg.svg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -91,7 +89,7 @@ body {
 
 .offwhite {
     background-color: var(--off-white);
-    background-image: url("/images/xl-eye-logo.svg");
+    background-image: url("images/xl-eye-logo.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
