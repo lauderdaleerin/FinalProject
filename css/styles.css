@@ -89,11 +89,11 @@ body {
 
 .offwhite {
     background-color: var(--off-white);
-    background-image: url('images/xl-eye-logo.svg');
+    background-image: url('/images/xl-eye-logo.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 75%;
+    height: 100vh;
 }
 
 .herotxt {

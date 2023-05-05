@@ -1,6 +1,6 @@
 var navbarDark = document.getElementById('navbarDark');
 window.onscroll = function () { 
-    if (document.body.scrollTop <= 900 ) {
+    if (document.body.scrollTop <= 1200 ) {
         navbarDark.classList.add("visible");
         navbarDark.classList.remove("invisible");
     } 
@@ -12,7 +12,7 @@ window.onscroll = function () {
 
 var navbarLight = document.getElementById('navbarLight');
 window.onscroll = function () { 
-    if (document.body.scrollTop <= 900 ) {
+    if (document.body.scrollTop <= 1200 ) {
         navbarLight.classList.add("invisible");
         navbarLight.classList.remove("visible");
     } 
