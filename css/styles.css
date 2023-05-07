@@ -4,11 +4,11 @@
     --cyan: #02FFFF;
 }
 
-h1 {
+h1, h4 {
     font-family: 'League Gothic';
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h5, h6 {
     font-family: 'Antonio';
 }
 
