@@ -125,14 +125,28 @@ body {
     z-index: 1;
 }
 
-.grid-image, .grid-content {
+.grid-imagel, .grid-contentr {
     grid-row: 1 / 2;
 }
 
-.grid-image {
+.grid-imagel {
+    grid-column: -1 / 3
+}
+
+.grid-contentr {
     grid-column: 2 / 5;
 }
 
-.grid-content {
+
+
+.grid-imager, .grid-contentl {
+    grid-row: 1 / 2;
+}
+
+.grid-imager {
+    grid-column: 2 / 5;
+}
+
+.grid-contentl {
     grid-column: -1 / 3;
 }
