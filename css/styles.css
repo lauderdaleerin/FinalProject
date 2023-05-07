@@ -4,11 +4,11 @@
     --cyan: #02FFFF;
 }
 
-h1, h4 {
+h1 {
     font-family: 'League Gothic';
 }
 
-h2, h3, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family: 'Antonio';
 }
 
@@ -100,7 +100,7 @@ body {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20%;
+    padding-top: 45vh;
     padding-bottom: 30%;
 }
 
@@ -123,4 +123,16 @@ body {
 
 .btn {
     z-index: 1;
+}
+
+.grid-image, .grid-content {
+    grid-row: 1 / 2;
+}
+
+.grid-image {
+    grid-column: 2 / 5;
+}
+
+.grid-content {
+    grid-column: -1 / 3;
 }
