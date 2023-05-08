@@ -71,10 +71,61 @@ p {
     }
 }
 
+
+
+
+/*twinkling stars background animation
+
 body {
     background-color: black;
 }
 
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background: url(/images/stars.png) repeat top center;
+  background-color: black;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(/images/twinkling.png) repeat top center;
+  z-index:1;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{
+    background:transparent url(/images/clouds.png) repeat top center;
+    z-index:-3;
+    opacity: .4;
+    animation:move-clouds-back 200s linear infinite;
+}
+*/
+
+/*parallax scroll stars bg*/
+
+body {
+    background-color: black;
+}
 
 .stars {
     background-image: url('https://raw.githubusercontent.com/lauderdaleerin/FinalProject/main/images/stars-bg.svg');
@@ -84,16 +135,21 @@ body {
 }
 
 
+/*emergence js*/
 
 .element[data-emergence=hidden] {
     opacity: 0;
+    transition: opacity 2s;
   }
   .element[data-emergence=visible] {
     opacity: 1;
+    
   }
 
 
 
+
+/*hero text & bg*/
 
 .offwhite {
     background-color: var(--off-white);
@@ -111,6 +167,9 @@ body {
     padding-top: 45vh;
     padding-bottom: 30vh;
 }
+
+
+/*logo styles*/
 
 .red {
     color: var(--red);
@@ -133,6 +192,8 @@ body {
     z-index: 1;
 }
 
+
+/*AR examples*/
 
 .grid-imagel, .grid-imager {
     grid-row: 1 / 2;
@@ -174,10 +235,13 @@ body {
 
 }
 
+/*safety tips*/
+
 .safety {
     background-color: rgba(255, 2, 1, 0.3);;
     border-radius: 15px;
     padding: 30px;
+    max-width: 1200px;
 
 }
 
@@ -190,7 +254,7 @@ body {
 
 .mockup1, .mockup2 {
     grid-row: 1 / 2;
-    max-width: 100%;
+    max-width: 270px;
 }
 
 .mockup1 {
