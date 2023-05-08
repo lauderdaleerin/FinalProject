@@ -85,6 +85,14 @@ body {
 
 
 
+.element[data-emergence=hidden] {
+    opacity: 0;
+  }
+  .element[data-emergence=visible] {
+    opacity: 1;
+  }
+
+
 
 
 .offwhite {
@@ -229,5 +237,6 @@ body {
 
 .text-red {
     color: var(--red);
-    font-size: large;
+    font-size: 30px;
 }
+

@@ -50,3 +50,23 @@ videoElw.addEventListener('pause', () => {
   navbarElw.classList.remove('invisible')
 })
 
+
+function changeImageone() {
+  var imageone = document.getElementById('ex1');
+  if (imageone.src.match("images/immersive-area-2.jpg")) {
+      imageone.src = "images/immersive-area-2b.png";
+  }
+  else {
+      imageone.src = "images/immersive-area-2.jpg";
+  }
+}
+
+function changeImagetwo() {
+  var imageone = document.getElementById('ex2');
+  if (imageone.src.match("images/immersive-area-3.jpg")) {
+      imageone.src = "images/immersive-area-3b.png";
+  }
+  else {
+      imageone.src = "images/immersive-area-3.jpg";
+  }
+}
