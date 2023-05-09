@@ -238,7 +238,6 @@ body {
 /*safety tips*/
 
 .safety {
-    background-color: rgba(255, 2, 1, 0.3);;
     border-radius: 15px;
     padding: 30px;
     max-width: 1200px;
@@ -249,11 +248,13 @@ body {
     background-color: white;
     border-radius: 15px;
     padding: 10px;
+    color: black;
 }
 
 
 .mockup1, .mockup2 {
     grid-row: 1 / 2;
+    width: auto;
     max-width: 270px;
 }
 
