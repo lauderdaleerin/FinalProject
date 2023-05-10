@@ -246,16 +246,20 @@ body {
 }
 
 .mockup1 {
-    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .mockup2 {
-    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid-contentlast {
-    grid-row: 2 / 3;
-    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    
 }
 
 
@@ -281,9 +285,13 @@ body {
     }
 
 
+.appbtns {
+    width: 50%;
+}
+
 @media (min-width: 768px) { 
     .appbtns {
-        width: 50%;
+        width: 100%;
     }
 }
 
