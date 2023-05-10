@@ -135,20 +135,6 @@ body {
 }
 
 
-/*emergence js*/
-
-.element[data-emergence=hidden] {
-    opacity: 0;
-    transition: opacity 2s;
-  }
-  .element[data-emergence=visible] {
-    opacity: 1;
-    
-  }
-
-
-
-
 /*hero text & bg*/
 
 .offwhite {
@@ -305,3 +291,17 @@ body {
     font-size: 30px;
 }
 
+/*emergence js*/
+
+[data-emergence] {
+    transition: all 300ms ease;
+    transition-delay: 500ms;
+}
+
+[data-emergence="hidden"] {
+    opacity: 0;
+}
+
+[data-emergence="visible"] {
+    opacity: 1;
+}
