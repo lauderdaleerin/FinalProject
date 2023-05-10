@@ -86,10 +86,6 @@ body {
     to {background-position:-10000px 5000px;}
 }
 
-@keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
 
 .stars, .twinkling, .clouds {
 
@@ -111,12 +107,6 @@ body {
   animation:move-twink-back 200s linear infinite;
 }
 
-.clouds{
-    background: url(/images/clouds.png) repeat;
-    z-index:-1;
-    opacity: .4;
-    animation:move-clouds-back 200s linear infinite;
-}
 
 
 /*parallax scroll stars bg
