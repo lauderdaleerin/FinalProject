@@ -300,6 +300,10 @@ body {
     font-size: 30px;
 }
 
+.grey-bg {
+    background-color: rgba(140, 149, 157, 0.3);;
+}
+
 /*emergence js*/
 
 [data-emergence] {
