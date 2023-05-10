@@ -96,13 +96,13 @@ body {
 }
 
 .stars {
-  background: url(/images/stars.png) repeat;
+  background: url(https://raw.githubusercontent.com/lauderdaleerin/FinalProject/main/images/stars.png) repeat;
   background-color: black;
   z-index:-3;
 }
 
 .twinkling{
-  background: url(/images/twinkling.png) repeat;
+  background: url(https://raw.githubusercontent.com/lauderdaleerin/FinalProject/main/images/twinkling.png) repeat;
   z-index:-2;
   animation:move-twink-back 200s linear infinite;
 }
